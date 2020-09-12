@@ -18,7 +18,7 @@
                 <input type="email" name="username" id="username" class="form-control rounded-pill form-control-lg" placeholder="Email">
             </div>
 
-            <button type="submit" class="btn mt-5 btn-primary btn-custom btn-block text-uppercase rounded-pill btn-lg" name="signup">Signup</button>
+            <button type="submit" class="btn mt-5 btn-primary btn-custom btn-block text-uppercase rounded-pill btn-lg" name="forgot">Forgot Password</button>
         </form>
     </div> 
 
@@ -27,3 +27,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
+<?php
+ if($_SESSION['forgot']){
+	echo "<script> Mail sent please check your mail box </script>";
+ }
+?>
