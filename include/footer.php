@@ -6,11 +6,11 @@
               <h2 class="ftco-heading-2">About</h2>
               <p>DataExtractor service is to provide micro services for the companies or the HR Team to extract the details like phone numbers and mails from large number of files</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li class="ftco-animate"><a href="https://twitter.com/workassist_in"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
     <!--<li class="ftco-animate"><a href="#"><span class="icon-youtube"</span></a></li> -->
-    <li class="ftco-animate"><a href="https://www.linkedin.com/in/waytogo-consultants-a79aa8113"><span class="icon-linkedin"></span></a></li>
+    <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
     <li class="ftco-animate"><a href="#"><span class="icon-pinterest"></span></a></li>
 
     
@@ -21,7 +21,7 @@
             <div class="ftco-footer-widget mb-3">
               <h2 class="ftco-heading-2">Employers</h2>
               <ul class="list-unstyled">
-                <li><a href="signup" class="py-2 d-block">Register</a></li>
+                <li><a href="signup.php" class="py-2 d-block">Register</a></li>
                 <!-- <li><a href="admin/admin_login.php" class="py-2 d-block">Post a Job</a></li> -->
                 <!-- <li><a href="#" class="py-2 d-block">Advance Skill Search</a></li> -->
                 <!-- <li><a href="#" class="py-2 d-block">Recruiting Service</a></li> -->
@@ -35,9 +35,8 @@
               <h2 class="ftco-heading-2">Have a Questions?</h2>
               <div class="block-23 mb-3">
                 <ul>
-                  <!-- <li><span class="icon icon-map-marker"></span><span class="text"> Building, 224, AJC Bose Road, Kolkata  700017. West Bengal. India.</span></li> -->
-                  <li><a href=tel:+917702120928><span class="icon icon-phone"></span><span class="text">+91 7702120928<br></span></a></li>
-                  <li><a href="mailto:aakarshteja.i2017@vitstudent.ac.in"><span class="icon icon-envelope"></span><span class="text">aakarshteja.i2017@vitstudent.ac.in</span></a></li>
+                  <li><span class="icon icon-phone"></span><a href=tel:+917702120928>+91 7702120928<br></a></li>
+                  <li><span class="icon icon-envelope"></span><a href="mailto:aakarshteja.i2017@vitstudent.ac.in">aakarshteja.i2017@vitstudent.ac.in</a></li>
                 </ul>
               </div>
             </div>
