@@ -13,7 +13,7 @@
         <form action="" class="login-form text-center" method='post'>
             <h1 class="mb-5 font-weight-light text-uppercase">Data Extractor Login</h1>
             <div class="form-group">
-                <input type="email" name="username" id="username" class="form-control rounded-pill form-control-lg" placeholder="Email">
+                <input type="email" name="email" id="username" class="form-control rounded-pill form-control-lg" placeholder="Email">
             </div>
 
             <div class="form-group">
@@ -40,6 +40,30 @@
 
 <?php
 if(isset($_POST['login'])){
-    echo "<script>alert('welcome');</script>";
+    include "include/db.php";
+    $email=$_POST['email'];
+    $password=$_POST['password'];
+    $sql=mysqli_query($conn,"SELECT 1 FROM USERS where email='$email'");
+    if($sql){
+        $row=mysqli_fetch_array($sql);
+        if($row){
+            
+            $sql=mysqli_query($conn,"SELECT PASSWORD FROM USERS where email='$email'");
+            $row=mysqli_fetch_array($sql);
+            if($row[0]==$password){
+                echo "<script>window.location.href='dashboard.php';</script>";
+            }
+            else{
+                // print_r($row['password']+"  "+$password);
+                echo "<script>alert('Wrong password try again');</script>";
+            }
+        }
+        else{
+            echo "<script>alert('Email doesnt exist please check again');</script>";
+        }
+    }
+    else{
+        echo "<script>alert('Some error please try again');</script>";
+    }
 }
 ?>
