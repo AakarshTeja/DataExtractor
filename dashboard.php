@@ -1,8 +1,9 @@
 <?php include 'include/header.php'; ?>
 
-<div class="container">
-    <div>
-        <h1>Welcome to Data Extractor Service</h1>
+<div class="jumbotron">
+    <div class="container">
+
+        <h1> Hi <?php if(isset($_SESSION['name'])){ echo $_SESSION['name'];}?>,<br> Welcome to Data Extractor Service</h1>
     </div>
 </div>
 

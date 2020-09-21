@@ -46,12 +46,12 @@ if(isset($_POST['login'])){
     $sql=mysqli_query($conn,"SELECT 1 FROM USERS where email='$email'");
     if($sql){
         $row=mysqli_fetch_array($sql);
-        if($row){
-            
-            $sql=mysqli_query($conn,"SELECT PASSWORD FROM USERS where email='$email'");
+        if($row){ 
+            $sql=mysqli_query($conn,"SELECT * FROM USERS where email='$email'");
             $row=mysqli_fetch_array($sql);
-            if($row[0]==$password){
-                echo "<script>window.location.href='dashboard.php';</script>";
+            if($row['password']==$password){
+                $id=$row['id'];
+                echo "<script>window.location.href='dashboard.php?id=$id';</script>";
             }
             else{
                 // print_r($row['password']+"  "+$password);

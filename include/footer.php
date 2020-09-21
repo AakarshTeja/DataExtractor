@@ -1,56 +1,63 @@
-<footer class="ftco-footer ftco-bg-dark ftco-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">About</h2>
-              <p>DataExtractor service is to provide micro services for the companies or the HR Team to extract the details like phone numbers and mails from large number of files</p>
-              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-    <!--<li class="ftco-animate"><a href="#"><span class="icon-youtube"</span></a></li> -->
-    <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
-    <li class="ftco-animate"><a href="#"><span class="icon-pinterest"></span></a></li>
-
-    
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-3">
-              <h2 class="ftco-heading-2">Employers</h2>
-              <ul class="list-unstyled">
-                <li><a href="signup.php" class="py-2 d-block">Register</a></li>
-                <!-- <li><a href="admin/admin_login.php" class="py-2 d-block">Post a Job</a></li> -->
-                <!-- <li><a href="#" class="py-2 d-block">Advance Skill Search</a></li> -->
-                <!-- <li><a href="#" class="py-2 d-block">Recruiting Service</a></li> -->
-                <li><a href="blog.php" class="py-2 d-block">Blog</a></li>
-                <!-- <li><a href="#" class="py-2 d-block">Faq</a></li> -->
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Have a Questions?</h2>
-              <div class="block-23 mb-3">
-                <ul>
-                  <li><span class="icon icon-phone"></span><a href=tel:+917702120928>+91 7702120928<br></a></li>
-                  <li><span class="icon icon-envelope"></span><a href="mailto:aakarshteja.i2017@vitstudent.ac.in">aakarshteja.i2017@vitstudent.ac.in</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+<style>
+.footer {
+  /* position: absolute; */
+  width: 100%;
+  background-color: #f5f5f5;
+}
+</style>
+<footer class="footer ">
+      <div class="row">
+      <div class="col-12 col-md ">
+        <h2>DataExtractor</h2>
+        <p>DataExtractor service is to provide micro services for the companies or the HR Team to extract the details like phone numbers and mails from large number of files</p>
+      </div>
+        <div class="col-6 col-md ">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Cool stuff</a></li>
+            <li><a class="text-muted" href="#">Random feature</a></li>
+            <li><a class="text-muted" href="#">Team feature</a></li>
+            <li><a class="text-muted" href="#">Stuff for developers</a></li>
+            <li><a class="text-muted" href="#">Another one</a></li>
+            <li><a class="text-muted" href="#">Last time</a></li>
+          </ul>
         </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p><!-- Link back to NN44 can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All Rights Reserved by DataExtractor</p>
-          </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Resource</a></li>
+            <li><a class="text-muted" href="#">Resource name</a></li>
+            <li><a class="text-muted" href="#">Another resource</a></li>
+            <li><a class="text-muted" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Business</a></li>
+            <li><a class="text-muted" href="#">Education</a></li>
+            <li><a class="text-muted" href="#">Government</a></li>
+            <li><a class="text-muted" href="#">Gaming</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Team</a></li>
+            <li><a class="text-muted" href="#">Locations</a></li>
+            <li><a class="text-muted" href="#">Privacy</a></li>
+            <li><a class="text-muted" href="#">Terms</a></li>
+          </ul>
         </div>
       </div>
+
+      <div class="col-md-12 text-center">
+<p><!-- Link back to NN44 can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All Rights Reserved by DataExtractor</p>
+</div>
     </footer>
+
+
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
